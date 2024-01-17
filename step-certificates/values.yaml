@@ -390,7 +390,10 @@ podSecurityContext:
   #   type: RuntimeDefault
 
 # Set up a network policy to allow incoming connections to the service
+# This is useful if your cluster has a default:deny policy set
 networkpolicy:
   enabled: false
   annotations: {}
+# Subnets to allow incoming access in CIDR format (eg: "10.0.0.0/8")
+# If not defined, allow all
 #  allow: []
