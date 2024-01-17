@@ -23,6 +23,13 @@ spec:
       port: {{ .Values.service.targetPort }}
     - protocol: TCP
       port: {{ .Values.service.port }}
+      {{- if .Values.networkpolicy.allow }}
+    from:
+    {{- range .Values.networkpolicy.allow }}
+    - ipBlock:
+        cidr: {{ . | quote }}
+    {{- end }}
+    {{- end }}
   egress:
   - ports:
     - protocol: TCP
