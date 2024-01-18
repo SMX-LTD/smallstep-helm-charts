@@ -2,8 +2,8 @@
 
 echo Ensuring were using the correct branch
 git checkout gh-pages
-echo Merging from master
-git pull origin master
+echo "Merging from master in this repo (not the upstream one)"
+git pull . master
 
 echo Building packages
 helm package step-certificates
