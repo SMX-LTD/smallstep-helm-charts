@@ -20,4 +20,6 @@ git push
 
 echo Repo site will now automatically deploy
 
+echo Switch back to master branch
+git checkout master
 exit 0
