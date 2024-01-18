@@ -3,7 +3,7 @@ entries:
   autocert:
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-01-18T14:39:47.628112678+13:00"
+    created: "2024-01-18T14:45:03.047028888+13:00"
     dependencies:
     - condition: step-certificates.enabled
       name: step-certificates
@@ -13,7 +13,7 @@ entries:
       version: 1.25.0
     description: A kubernetes add-on that automatically injects TLS/HTTPS certificates
       into your containers.
-    digest: 15d2d5ad2be9c77a8785c16b15d6c938d79fe7edffc17d2062ddfe4eee84618f
+    digest: 2d326ef794393e975cef104132aaacec1d9a308a15a1b2d1b05b28b335e62448
     home: https://smallstep.com
     icon: https://raw.githubusercontent.com/smallstep/autocert/master/icon.png
     keywords:
@@ -44,10 +44,10 @@ entries:
   step-certificates:
   - apiVersion: v1
     appVersion: 0.25.0
-    created: "2024-01-18T14:39:47.629481699+13:00"
+    created: "2024-01-18T14:45:03.048428573+13:00"
     description: An online certificate authority and related tools for secure automated
       certificate management, so you can use TLS everywhere.
-    digest: d31c9dcce148fb1afccd7c9e480385e3b554547f01f9a971df77ec4ae48bda95
+    digest: c26c2cb83e3d277fc64ae4da5a1db78d2ac366a3f12ba90efc1e72ec58a896a6
     home: https://smallstep.com
     icon: https://raw.githubusercontent.com/smallstep/certificates/master/icon.png
     keywords:
@@ -79,9 +79,9 @@ entries:
   step-issuer:
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2024-01-18T14:39:47.63019966+13:00"
+    created: "2024-01-18T14:45:03.049088859+13:00"
     description: Step-issuer helm chart for kubernetes.
-    digest: ace0cc50d1501835e3140094981fca51a53aadc99af908ce73991be1d173af5e
+    digest: fc54908c443c14a28653c60b3a5336084d2e17a08e473a6488d5b7fc23e157b8
     home: https://smallstep.com
     keywords:
     - authority
@@ -113,4 +113,4 @@ entries:
     urls:
     - https://smx-ltd.github.io/smallstep-helm-charts/step-issuer-1.8.0.tgz
     version: 1.8.0
-generated: "2024-01-18T14:39:47.625768384+13:00"
+generated: "2024-01-18T14:45:03.044123215+13:00"
